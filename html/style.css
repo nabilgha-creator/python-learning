@@ -55,7 +55,10 @@
 
     .photo:hover{margin: auto; 
         transform: scale(1.2);} /* j'evite de mettre un scale trop important sinon je vais depasser de l'ecran */ 
-     
+    
+        
+    /*Bas de page*/ 
+
     .youtube img{width: 50px; height: 32px;} 
     .github img{width: 50px; height: 32px;} 
    
@@ -63,12 +66,13 @@
         text-align: right; 
         color: white; 
         cursor: pointer;} 
-    .retour:hover { color: #f0f0f0; } /*Bas de page*/ 
+    
     
     footer { display:flex ; 
         justify-content:space-between; 
         background:linear-gradient(90deg,rgb(2, 142, 142),rgb(128, 1, 128)); 
         color: white; align-items: center; padding: 20px; } 
+        
     footer nav{ display: flex; gap: 20px;}
 
     /*police importées*/ 
